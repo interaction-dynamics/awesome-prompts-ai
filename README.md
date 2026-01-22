@@ -13,3 +13,4 @@ Curated list of prompts and AI documentation
 - [Praison AI Agents framework](https://docs.praison.ai/)
 - [KaibanJS AI Agents framework](https://docs.kaibanjs.com/)
 - [MastraAI](https://mastra.ai)
+- [Claude Code Skills](https://code.claude.com/docs/en/skills)
