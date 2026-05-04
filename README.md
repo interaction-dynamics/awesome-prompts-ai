@@ -15,6 +15,22 @@ Curated list of prompts and AI documentation
 - [MastraAI](https://mastra.ai)
 - [Claude Code Skills](https://code.claude.com/docs/en/skills)
 
+## Claude Code Skills
+
+Prompts, plugins, and skills to extend Claude Code's capabilities.
+
+1. **[Superpowers](https://github.com/obra/superpowers)** — An agentic skills framework & software development methodology shipped as a folder of markdown files; 14 skills covering brainstorming, TDD, planning, and more. 150K+ GitHub stars.
+
+2. **[Frontend Design](https://claude.com/plugins/frontend-design)** *(by Anthropic)* — Official Anthropic skill that pushes Claude to make deliberate aesthetic choices before writing any code; bans overused fonts and enforces bold typography, purposeful color, and intentional animation. 277K+ installs.
+
+3. **[Code Review](https://claude.com/plugins/code-review)** *(by Anthropic)* — Official Anthropic code review plugin; multiple agents analyze diffs in parallel, each looking for a different class of issue, then post inline PR comments ranked by severity.
+
+4. **[Security Review](https://github.com/anthropics/claude-code-security-review)** *(by Anthropic)* — AI-powered GitHub Action that runs on every PR to detect SQL injection, XSS, auth flaws, and other vulnerabilities; also available as a `/security-review` slash command in the terminal.
+
+5. **[Claude Mem](https://github.com/thedotmack/claude-mem)** — Persistent memory MCP plugin that captures session context (architecture decisions, conventions, bug fixes) and injects relevant memories at the start of future sessions. Everything stored locally in `.claude-mem/`.
+
+6. **[claude-stack-plugin](https://github.com/bdarbaz/claude-stack-plugin)** — Unified plugin that merges Superpowers, GSD, Compound, and more into one install; ships 27 skills, 12 agents, 6 hooks, and 8 rules under a single `/s:` namespace.
+
 ## Token Optimization
 
 Tools and techniques to reduce token usage and context size.
