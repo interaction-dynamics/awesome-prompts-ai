@@ -31,6 +31,8 @@ Prompts, plugins, and skills to extend Claude Code's capabilities.
 
 6. **[claude-stack-plugin](https://github.com/bdarbaz/claude-stack-plugin)** — Unified plugin that merges Superpowers, GSD, Compound, and more into one install; ships 27 skills, 12 agents, 6 hooks, and 8 rules under a single `/s:` namespace.
 
+7. **[deepsec](https://www.npmjs.com/package/deepsec)** (`npx deepsec`) — Zero-config security scanner for Claude Code projects; runs via `npx deepsec` to audit your codebase for secrets, misconfigurations, and vulnerabilities without any install step.
+
 ## Token Optimization
 
 Tools and techniques to reduce token usage and context size.
