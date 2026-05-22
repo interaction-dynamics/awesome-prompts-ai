@@ -2,6 +2,25 @@
 
 Curated list of prompts and AI documentation
 
+## Opinionated Claude Setup
+
+A batteries-included starting point to initialize Claude Code with the plugins we reach for on every project. Run these from your repo root:
+
+```sh
+npx plugins add vercel/vercel-plugin
+npx plugins add caveman
+npx plugins add rtk
+npx plugins add nextjs-plugin
+```
+
+What each one gives you:
+
+- **[vercel/vercel-plugin](https://vercel.com/ai-gateway)** — Wires Claude Code into the Vercel AI Gateway for deploys, env management, and preview URLs without leaving the terminal.
+- **[caveman](https://lnkd.in/egZNirCW)** — Forces caveman-style terse output; ~75% fewer output tokens with no accuracy loss.
+- **[rtk](https://lnkd.in/eMYtBZYZ)** — Rust Token Killer proxy that filters terminal noise; 60–90% reduction, zero dependencies.
+- **nextjs-plugin** — Next.js-aware scaffolding, routing conventions, and server-component hints for App Router projects.
+
+
 - [AI gateway](https://vercel.com/ai-gateway)
 - [AI Agents orchestrator](https://botpress.com/)
 - [article about ai agents orchestration](https://botpress.com/blog/ai-agent-orchestration)
