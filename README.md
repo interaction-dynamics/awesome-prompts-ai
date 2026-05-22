@@ -11,6 +11,8 @@ npx plugins add vercel/vercel-plugin
 npx plugins add caveman
 npx plugins add rtk
 npx plugins add nextjs-plugin
+npx plugins add linear-server
+npx plugins add neon-mcp
 ```
 
 What each one gives you:
@@ -19,6 +21,8 @@ What each one gives you:
 - **[caveman](https://lnkd.in/egZNirCW)** — Forces caveman-style terse output; ~75% fewer output tokens with no accuracy loss.
 - **[rtk](https://lnkd.in/eMYtBZYZ)** — Rust Token Killer proxy that filters terminal noise; 60–90% reduction, zero dependencies.
 - **nextjs-plugin** — Next.js-aware scaffolding, routing conventions, and server-component hints for App Router projects.
+- **[linear-server](https://linear.app/)** — Linear MCP server; lets Claude read issues, triage backlogs, update statuses, and open tickets straight from the chat.
+- **[neon-mcp](https://neon.tech/)** — Neon Postgres MCP server; spin up branches, run SQL, inspect schemas, and manage roles against your Neon project without leaving Claude.
 
 
 - [AI gateway](https://vercel.com/ai-gateway)
